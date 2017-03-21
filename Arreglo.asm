@@ -1,6 +1,6 @@
 ; Naomi Macias Honti		a01282098
 ; 14 de marzo 2017
-; Da el numero mas grande, la cantidad de pares y el par mas grande de un arreglo (iArray) de 9.
+; Da el numero mas grande, la cantidad de pares y el par mas grande de un arreglo (iArray) con 9 numeros.
 
 ;Stack Segment block -do not change it-
 thestack segment para stack 'stack'
