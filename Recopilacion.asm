@@ -60,7 +60,7 @@ principal proc far
 		lea dx, cMsg4
 		call cout
 
-		; CODIGO 3. Muestra el numero (ax) decimal
+		; CODIGO 3. Muestra el numero (ax)
 		mov ax, 28d
 		mov bl, 10d
 		div bl
