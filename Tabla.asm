@@ -122,18 +122,5 @@ cout proc near
 		ret
 cout endp
 
-cout2 proc near
-		mov ah,9
-		int 21h
-		ret
-cout2 endp
-
-
-; Function that reads a string from keyboard
-; It requires a particular structure:
-; Max number of characters (including <enter>) to be captured
-; Actual number of characters typed (without <enter>)
-; The buffer with the data of characters typed (with <enter>)
-
 code ends
 	end principal
